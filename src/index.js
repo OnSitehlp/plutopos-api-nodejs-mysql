@@ -10,8 +10,8 @@ const app = express()
 
 app.use(express.json())
 app.get('/ping', async(req,res)=>{
-   const [result]=await pool.query('SELECT * from products')
-    res.json(result[0]);
+   //const [result]=await pool.query('SELECT * from products')
+    res.json('Pong...');
 });
 
 
