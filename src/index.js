@@ -1,4 +1,5 @@
 //https://www.youtube.com/watch?v=3dSkc-DIM74
+//plutopos-api-nodejs-mysql-production.up.railway.app
 import express from 'express'
 import { pool } from './db.js'
 import productsRoutes from './routes/products.routes.js'
